@@ -1,0 +1,849 @@
+ @media screen and ( max-width:1920px){
+    
+  *{ margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+    
+    
+}
+  
+
+    
+.navbar{ background-color: #081329; list-style: none;}
+
+.navbar #üye {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    color: white;
+    margin-right: 3rem;
+    font-size: x-large;
+}
+
+.navbar div img{width: 100%;}
+.kapsayici{display: flex;
+    justify-content: center;
+    background: #212d6d; width: 100%;
+    height: 76px;
+    padding: 0.5rem;
+}
+ .kapsayici   h3{ color: white;
+   
+    position: absolute;
+    font-size: initial;
+    left: 2rem;}
+
+    .kapsayici input {
+        width: 286px;
+        
+        border-radius: 1%;
+    height: 48px;
+    border: 1px solid #3b82f6;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    }
+    input:hover{ border:1px solid cornflowerblue;}
+
+    .kapsayici button{ background: #3b82f6; color: white; border-radius: 5%; width: 115px;
+        border: 1px solid #3b82f6;
+        height: 40px;
+        margin-top: 0.2rem; margin-left: 1rem;}
+  .kapsayici  p {
+        margin-top: 12px;
+        margin-bottom: 0rem;
+        color: white;
+        margin-left: 3rem;
+        font-size: inherit;
+    }
+    .kapsayici div{ padding: 0.5rem;
+        padding-left: 1rem;}
+
+
+
+    .foto h1{    position: absolute;
+        color: aliceblue;
+        top: 24rem;
+        left: 6rem;
+        font-size: revert;
+        font-family: revert;}
+        .foto h3{  position: absolute;
+            color: aliceblue;
+            top: 30rem;
+            left: 6rem;
+            font-size: revert;
+            font-family: revert; top: 27rem;
+            left: 6.2rem;}
+            .foto p{ position: absolute;
+                color: aliceblue;
+                top: 30rem;
+                left: 6rem;
+                font-size: revert;
+                font-family: revert; top: 33rem;
+                left: 6.2rem; top: 32rem;
+                color: gray
+               
+    }
+
+
+    .foto #pe{ position: absolute; top: 38rem;
+    color: white; left: 6.2rem;  font-size: x-large; }
+    .foto #bu {
+        position: absolute;
+        top: 41rem;
+        color: black;
+        left: 7.2rem;
+        border: 1px;
+        width: 195px;
+        height: 50px;
+        border-radius: 3%;
+    }
+
+    #pep{color: aliceblue;
+        
+        display: flex;
+       
+        justify-content: center;
+        margin: 5rem;
+        font-family: cursive;
+        font-size: larger;}
+
+        
+        .resimler{
+            display: flex;
+            overflow:scroll;
+            background-color: #081329;
+            margin-top: -8px;
+          
+            overflow-y: hidden;
+        }
+        
+
+.pepe p { display: flex; justify-content: center; color: white;
+    margin: 3rem;
+    font-size: larger;}
+    #buyukresim{ margin-left: 13%;}
+
+.yazi{ display:flex; justify-content: space-evenly; margin: 2rem;}
+.yazi p{ color: white; ;  border-left: 4px solid#3b82f6;}
+
+.cec{ margin: 2rem; display: flex; justify-content: center;}
+.cec p{ color: white; font-size: x-large; }
+
+#film{ margin-left: 2rem;}
+
+.tedy{ display: flex;}
+.tedy h1{
+    margin-left: 1rem;
+    color: white;
+}
+.tedy p {
+    position: absolute;
+    left: 51.50%;
+    top: 301%;
+    color: white;
+    font-size: x-large;
+}
+
+
+}
+
+
+
+@media screen and  (max-width:1366px){
+    
+
+
+    .kapsayici p {
+        margin-top: 12px;
+        margin-bottom: 0rem;
+        color: white;
+        margin-left: 1rem;
+        font-size: inherit;
+    }
+    .kapsayici input {
+        width: 223px;
+}
+#buyukresim {
+    margin-left: 1%;
+}
+#film {
+    margin-left: 0rem;
+}
+.tedy p {
+    position: absolute;
+    left: 71.5%;
+    top: 388%;
+    color: white;
+    font-size: initial;
+}
+
+ }
+
+ @media screen and (max-width:1280px) {
+.kapsayici{ width:107%}
+   
+.navbar{ width: 107%;}
+.foto{width: 107%;}
+
+.resimler{margin-left: 4rem;}
+#buyukresim {
+    margin-left: -1%;
+}
+.tedy p {
+    position: absolute;
+    left: 75.5%;
+    top: 377%;
+    color: white;
+    font-size: initial;
+}
+ }
+ @media screen and (max-width:1024px) {
+    .navbar{ width: 134%;}
+.kapsayici{width: 134%;}
+.foto {
+    width: 134%;
+}
+.resimler {
+    margin-left: 0rem;
+    width: 134%;
+}
+
+
+#pep{margin-left: 23rem; }
+
+.pepe p{margin-left: 27rem;}
+.yazi {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+    
+    width: 128%;
+}
+
+.cec p{ margin-left: 20rem;}
+.tedy p {
+    position: absolute;
+    left: 94.5%;
+    width: 39%;
+    top: 497%;
+    color: white;
+    font-size: initial;
+}
+
+#accordionFlushExample{ width: 100%;}
+
+}
+
+@media  screen and (max-width:912px) {.kapsayici input{ width: 118px;}
+.navbar {
+    width: 107%;
+}
+.foto {
+    width: 117%;
+}
+.kapsayici {
+    width: 117%;
+}
+#buyukresim {
+    margin-left: -1%;
+    width: 108%;
+} 
+.pepe p {
+    margin-left: 11rem;
+}
+.yazi {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+    width: 103%;
+}
+.cec p {
+    margin-left: 8rem;
+}
+#film {
+    margin-left: 0rem;
+    width: 108%;
+}
+.tedy p {
+    position: absolute;
+    left: 59.5%;
+    width: 39%;
+    top: 196%;
+    color: white;
+    font-size: initial;
+}
+#accordionFlushExample {
+    width: 81%;
+}
+#pep {
+    margin-left: 9rem;
+}
+
+}
+
+
+@media  screen and (max-width:820px) { .kapsayici {
+    width: 134%;
+}
+#film {
+    margin-left: 0rem;
+    width: 116%;
+}  }
+
+
+@media screen and (max-width:768px){
+    
+
+#film {
+    margin-left: 0rem;
+    width: 123%;
+}
+
+}
+
+@media screen and ( max-width:540px){ 
+    
+
+.kapsayici {
+    width: 195%;
+}
+
+.navbar {
+    width: 174%;
+}
+.foto {
+    width: 168%;
+}
+.foto h3 {
+    position: absolute;
+    color: aliceblue;
+    top: 30rem;
+    left: 6rem;
+    font-size: revert;
+    font-family: revert;
+    top: 29rem;
+    left: 6.2rem;
+}
+.foto p{ top: 35rem;}
+#pep {
+    margin-left: 13rem;
+    width: 100%;
+}
+.resimler {
+    margin-left: 0rem;
+    width: 169%;
+}
+#film {
+    margin-left: 0rem;
+    width: 173%;
+}
+.cec p {
+    margin-left: 19rem;
+}
+.yazi {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+    width: 163%;
+}
+#buyukresim {
+    margin-left: -1%;
+    width: 169%;
+}
+.pepe p {
+    margin-left: 13rem;
+    width: 100%;
+}
+.tedy img{ width: 129%;
+}
+.tedy p {
+    position: absolute;
+    left: 132.5%;
+    width: 35%;
+    top: 374%;
+    color: white;
+    font-size: initial;
+}
+#accordionFlushExample {
+    width: 128%;
+}
+
+}
+
+@media screen and ( max-width:414px){ 
+
+    .navbar {
+        width: 105%;
+    }
+    #pep {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .resimler {
+        margin-left: 0rem;
+        width: 100%;
+    }
+    .pepe p {
+        margin-left: 0rem;
+        width: 100%;
+    }
+    #buyukresim {
+        margin-left: -1%;
+        width: 103%;
+    }
+    .yazi {
+        display: block;
+        
+        margin: 2rem;
+        width: 87%;
+    }
+    .cec p {
+        margin-left: 5rem;
+    }
+    #film {
+        margin-left: 0rem;
+        width: 117%;
+    }
+    .tedy {
+        display: block;
+    }
+    .tedy img {
+        width: 103%;
+        display: block;
+    }
+    .tedy p {
+        position: absolute;
+        left: 17.5%;
+        width: 75%;
+        top: 314%;
+        color: white;
+        font-size: initial;
+    }
+    #accordionFlushExample {
+        width: 52%; }
+        .kapsayici div {
+            padding: 0.5rem;
+            padding-left: 19rem;
+            margin-top: -2rem;
+        }
+        .kapsayici {
+            display: block;
+            justify-content: center;
+            background: #212d6d;
+            width: 100%;
+            height: 264px;
+            padding: 0.5rem;
+        }
+        .kapsayici input {
+            width: 224px;
+        }
+        .kapsayici input {
+           
+            border-radius: 1%;
+            height: 48px;
+            border: 1px solid #3b82f6;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            margin-left: 11rem;
+        }
+        .kapsayici button {
+            background: #3b82f6;
+            color: white;
+            border-radius: 5%;
+            width: 115px;
+            border: 1px solid #3b82f6;
+            height: 40px;
+            margin-top: 0.2rem;
+            margin-left: 17.8rem;
+        }
+        .tedy p {
+            position: absolute;
+            left: 17.5%;
+            width: 75%;
+            top: 334%;
+            color: white;
+            font-size: initial;
+        }
+        .kapsayici div {
+            padding: 0.5rem;
+            padding-left: 4rem;
+            margin-top: -10rem;
+        }
+        .kapsayici p {
+            margin-top: 6px;
+            margin-bottom: 0rem;
+            color: white;
+            margin-left: 18rem;
+            font-size: inherit;
+        }
+        .kapsayici div {
+            padding: 0.5rem;
+            padding-left: 18rem;
+            margin-top: 0rem;
+        }
+ }
+
+@media screen and ( max-width:412px){ 
+
+
+
+
+    .kapsayici {
+        display: block;
+        justify-content: center;
+        background: #212d6d;
+        width: 109%;
+        height: 264px;
+        padding: 0.5rem;
+    }
+
+
+
+
+
+
+ 
+ }
+
+ @media screen and ( max-width:393px){  
+
+    .kapsayici input {
+        width: 205px;
+    }
+    .kapsayici div {
+        padding: 0.5rem;
+        padding-left: 11rem;
+        margin-top: 0rem;
+    }
+    .kapsayici p {
+        margin-top: 6px;
+        margin-bottom: 0rem;
+        color: white;
+        margin-left: 11rem;
+        font-size: inherit;
+    }
+    .kapsayici button {
+        background: #3b82f6;
+        color: white;
+        border-radius: 5%;
+        width: 115px;
+        border: 1px solid #3b82f6;
+        height: 40px;
+        margin-top: 0.2rem;
+        margin-left: 11rem;
+    }
+
+.foto h1 {
+    position: absolute;
+    color: aliceblue;
+    top: 23rem;
+    left: 4rem;
+    font-size: revert;
+    font-family: revert;
+}
+.foto h3 {
+    position: absolute;
+    color: aliceblue;
+    top: 30rem;
+    left: 6rem;
+    font-size: revert;
+    font-family: revert;
+    top: 29rem;
+    left: 3.2rem;
+}
+.foto p {
+    top: 34rem;
+    margin-left: -3rem;
+}
+.foto #bu {
+    position: absolute;
+    top: 41rem;
+    color: black;
+    left: 5.2rem;
+    border: 1px;
+    width: 195px;
+    height: 50px;
+    border-radius: 3%;
+}
+.tedy p {
+    position: absolute;
+    left: 4.5%;
+    width: 75%;
+    top: 349%;
+    color: white;
+    font-size: initial;
+}
+
+#accordionFlushExample {
+    width: 52%;
+    position: absolute;
+    top: 343%;
+    left: -6%;
+}
+
+
+
+  }
+
+
+ @media screen and ( max-width:390px){ 
+    
+    
+    .kapsayici input {
+    width: 199px;
+} 
+
+.kapsayici button {
+    background: #3b82f6;
+    color: white;
+    border-radius: 5%;
+    width: 115px;
+    border: 1px solid #3b82f6;
+    height: 40px;
+    margin-top: 0.2rem;
+    margin-left: 16.2rem;
+}
+.kapsayici p {
+    margin-top: 6px;
+    margin-bottom: 0rem;
+    color: white;
+    margin-left: 16rem;
+    font-size: inherit;
+}
+.kapsayici div {
+    padding: 0.5rem;
+    padding-left: 16rem;
+    margin-top: 0rem;
+}
+.foto h1 {
+    position: absolute;
+    color: aliceblue;
+    top: 24rem;
+    left: 4rem;
+    font-size: revert;
+    font-family: revert;
+}
+.foto h3 {
+    position: absolute;
+    color: aliceblue;
+    top: 30rem;
+    left: 6rem;
+    font-size: revert;
+    font-family: revert;
+    top: 29rem;
+    left: 3.2rem;
+}
+.foto p {
+    top: 34rem;
+    margin-left: -3rem;
+}
+.foto #bu {
+    position: absolute;
+    top: 41rem;
+    color: black;
+    left: 5.2rem;
+    border: 1px;
+    width: 195px;
+    height: 50px;
+    border-radius: 3%;
+}
+#accordionFlushExample {
+    width: 52%;
+    position: absolute;
+    left: -5%;
+    top: 349%;
+}
+.tedy p {
+    position: absolute;
+    left: 4.5%;
+    width: 75%;
+    top: 352%;
+    color: white;
+    font-size: initial;
+}
+
+
+
+}
+
+@media screen and (max-width:360px) {
+
+    .kapsayici input {
+        width: 172px;
+    }
+    .kapsayici button {
+        background: #3b82f6;
+        color: white;
+        border-radius: 5%;
+        width: 115px;
+        border: 1px solid #3b82f6;
+        height: 40px;
+        margin-top: 0.2rem;
+        margin-left: 14.5rem;
+    }
+    .kapsayici p {
+        margin-top: 6px;
+        margin-bottom: 0rem;
+        color: white;
+        margin-left: 15rem;
+        font-size: inherit;
+    }
+    .kapsayici div {
+        padding: 0.5rem;
+        padding-left: 15rem;
+        margin-top: 0rem;
+    }
+    .foto h1 {
+        position: absolute;
+        color: aliceblue;
+        top: 24rem;
+        left: 3rem;
+        font-size: revert;
+        font-family: revert;
+    }
+    .foto p {
+        top: 35rem;
+        margin-left: -3rem;
+    }
+    #accordionFlushExample {
+        width: 52%;
+        position: absolute;
+        left: -5%;
+        top: 396%;
+    }
+    .tedy p {
+        position: absolute;
+        left: 4.5%;
+        width: 75%;
+        top: 395%;
+        color: white;
+        font-size: initial;
+    }
+
+    
+}
+
+@media screen and ( max-width:280px) {
+
+    .kapsayici button {
+        background: #3b82f6;
+        color: white;
+        border-radius: 5%;
+        width: 89px;
+        border: 1px solid #3b82f6;
+        height: 48px;
+        margin-top: 0.2rem;
+        margin-left: 11rem;
+    }
+    .kapsayici input {
+        width: 90px;
+    }
+    .kapsayici {
+        display: block;
+        justify-content: center;
+        background: #212d6d;
+        width: 109%;
+        height: 344px;
+        padding: 0.5rem;
+    }
+    .kapsayici div {
+        padding: 0.5rem;
+        padding-left: 10.5rem;
+        margin-top: 0rem;
+    }
+    .foto h1 {
+        position: absolute;
+        color: aliceblue;
+        top: 30rem;
+        left: 3rem;
+        font-size: revert;
+        font-family: revert;
+    }
+    .foto h3 {
+        position: absolute;
+        color: aliceblue;
+        top: 30rem;
+        left: 6rem;
+        font-size: revert;
+        font-family: revert;
+        top: 38rem;
+        left: 3.2rem;
+    }
+    .foto p {
+        top: 46rem;
+        margin-left: -3rem;
+    }
+    .foto #pe {
+        position: absolute;
+        top: 50rem;
+        color: white;
+        left: 5.2rem;
+        font-size: x-large;
+    }
+    .foto #bu {
+        position: absolute;
+        top: 57rem;
+        color: black;
+        left: 2.2rem;
+        border: 1px;
+        width: 195px;
+        height: 50px;
+        border-radius: 3%;
+    }
+    #accordionFlushExample {
+        width: 52%;
+        position: absolute;
+        left: -14%;
+        top: 451%;
+    }
+    .tedy p {
+        position: absolute;
+        left: 11.5%;
+        width: 75%;
+        top: 454%;
+        color: white;
+        font-size: initial;
+    }
+    .cec p {
+        margin-left: 2rem;
+    }
+    .pepe p {
+        margin-left: 2rem;
+        width: 100%;
+    }
+    .resimler {
+        margin-left: 1rem;
+        width: 87%;
+        height: 17%;
+    }
+    #pep {
+        margin-left: 0rem;
+        width: 100%;
+    }
+
+    .navbar div img {
+        width: 125px;
+    }
+    .navbar {
+        width: 114%;
+    }
+    .kapsayici p {
+        margin-top: 6px;
+        margin-bottom: 0rem;
+        color: white;
+        margin-left: 14rem;
+        font-size: inherit;
+    }
+
+    .tedy h1 {
+        margin-left: 2rem;
+        color: white;
+    }
+
+}
+
+
+
